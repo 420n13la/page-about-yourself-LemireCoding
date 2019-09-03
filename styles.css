@@ -1,0 +1,43 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-family: 'Manjari', sans-serif;
+  font-size: 30px;
+  border:10px solid red;
+}
+
+h2 {
+  color: blue;
+  text-align: left;
+  border: 10px solid orange;
+}
+
+p {
+  font-size: 20px;
+  border:10px dotted green;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+img{
+  position: relative;
+  margin-top: 150px;
+  width : 150px;
+  height : 150px;
+  box-shadow: 20px 20px;
+}
+
+</style>
